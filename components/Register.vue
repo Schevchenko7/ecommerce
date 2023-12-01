@@ -42,7 +42,7 @@ const submitRegister = async () => {
 
 
 <template>
-  <div class="w-full max-w-sm p-4 bg-white rounded-lg sm:p-6 md:p-8 shadow-[0_30px_60px_rgba(0,0,0,0.15)]">
+  <div class="w-full max-w-sm p-4 bg-gradient-to-r from-cyan-500 rounded-lg sm:p-6 md:p-8 shadow-[0_30px_60px_rgba(0,0,0,0.15)]">
     <form class="" @submit.prevent="submitRegister">
       <div class="mb-6">
         <h5 class="text-2xl font-medium text-gray-900 mb-2">Register</h5>

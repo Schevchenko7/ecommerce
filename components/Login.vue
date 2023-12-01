@@ -40,7 +40,7 @@ const submitLogin = async () => {
 </script>
 
 <template>
-  <div class="w-full max-w-sm p-4 bg-white rounded-lg shadow-[0_30px_60px_rgba(0,0,0,0.15)] sm:p-6 md:p-8">
+  <div class="w-full max-w-sm p-4 bg-gradient-to-r from-cyan-500 rounded-lg shadow-[0_30px_60px_rgba(0,0,0,0.15)] sm:p-6 md:p-8">
     <form class="" @submit.prevent="submitLogin">
       <div class="mb-6">
         <h5 class="text-2xl font-medium text-gray-900 mb-2">Login</h5>

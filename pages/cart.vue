@@ -26,7 +26,7 @@ const removeCart = (id: number) => {
 </script>
 
 <template>
-    <section>
+    <section class="bg-gradient-to-r from-cyan-500">
         <div class="container">
             <div class="py-10 flex gap-6">
                 <div class="w-[70%]">

@@ -31,10 +31,10 @@ const addCart = () => {
 </script>
 
 <template>
-  <section class="bg-white shadow-xl rounded-xl overflow-hidden">
+  <section class="bg-white shadow-xl rounded-xl overflow-hidden ">
     <div :class="`w-full h-[200px] p-5 bg-gray-300`">
       <img :src="baseStorageUrl + props.product.image" class="w-full h-full
-      object-contain"/>
+      object-contain "/>
     </div>
     <div class="px-5 pb-5 pt-9 relative">
 

@@ -2,8 +2,7 @@
     <section>
       <Header />
       <slot />
-
       
-      <Footer />
+      <Footer class="bg-gradient-to-r from-cyan-500" />
     </section>
 </template>

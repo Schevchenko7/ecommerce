@@ -16,7 +16,7 @@ const selectedCategory = ref("");
 </script>
 
 <template>
-    <section>
+    <section class="bg-gradient-to-r from-cyan-500">
         <div class="container">
             <div class="py-10">
                 <div class="mb-6 flex justify-end gap-6">

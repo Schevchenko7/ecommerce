@@ -117,7 +117,7 @@ const uploadFile = async (formFile: any) => {
             :required="item.required"
           >
         </div>
-        <button type="submit" class="text-white bg-primary hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center">
+        <button type="submit" class="text-black bg-primary hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center">
           <span v-if="!isLoading">Submit</span>
           <div v-else class="flex items-center gap-3">
               <div class="w-5 h-5 rounded-full border-2 border-t-blue-500 animate-spin"></div>

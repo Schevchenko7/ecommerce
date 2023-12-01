@@ -23,12 +23,11 @@ const logout = async () => {
 </script>
 
 <template>
-    <header class="w-full border-b border-slate-200 py-6">
+    <header class="w-full border-slate-200 py-6 bg-gradient-to-r from-cyan-500">
       <div class="container">
         <div class="flex justify-between items-center">
           <div>
-    <NuxtLink to="/" class="text-xl font-bold">SMK
-    Coding</NuxtLink>
+    <NuxtLink to="/" class="text-xl font-bold">  All <span class="text-violet-800">Stars</span> Shop</NuxtLink>
     </div>
     <nav class="flex items-center gap-6">
         <NuxtLink to="/" class="text-base">Home</NuxtLink>   
